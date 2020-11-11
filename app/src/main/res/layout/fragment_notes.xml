@@ -7,12 +7,25 @@
 
     <TextView
         android:id="@+id/tv_app_title"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:text="@string/notes"
         android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btn_clear_notes"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_outline_delete_forever"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp" />
 
     <TextView
         android:id="@+id/tv_nothing"

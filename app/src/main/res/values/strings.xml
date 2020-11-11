@@ -6,4 +6,10 @@
     <string name="title_input">Title</string>
     <string name="value_input">Add description</string>
     <string name="add_image">add image</string>
+    <string name="created">Created at: %1$s</string>
+    <string name="updated">Updated at: %1$s</string>
+    <string name="title_empty">Title can not be empty</string>
+    <string name="form_pick_photos">Pick photos</string>
+    <string name="delete_note">Delete note</string>
+    <string name="mark_as_done">Mark as done</string>
 </resources>

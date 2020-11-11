@@ -15,4 +15,16 @@ class NoteRepository {
     suspend fun saveNote(note: Note) = flow {
         emit(dao.insert(note))
     }
+
+    suspend fun updateNote(note: Note) = flow {
+        emit(dao.update(note))
+    }
+
+    suspend fun deleteNote(note: Note) = flow {
+        emit(dao.delete(note))
+    }
+
+    suspend fun nukeTable() = flow {
+        emit(dao.nukeTable())
+    }
 }

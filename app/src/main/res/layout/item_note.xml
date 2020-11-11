@@ -61,5 +61,17 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp" />
 
+        <ImageView
+            android:id="@+id/img_attached"
+            android:layout_below="@id/note_body"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_attach_file"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:layout_alignParentRight="true" />
+
+
     </RelativeLayout>
 </com.google.android.material.card.MaterialCardView>

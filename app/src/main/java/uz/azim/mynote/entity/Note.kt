@@ -13,7 +13,7 @@ data class Note(
     var description: String,
     val createdDate: String,
     var isFinished:Boolean,
-    val imageUrl: ArrayList<String>? = null,
+    var imageUrl: ArrayList<String>? = null,
     var updateDate: String? = null,
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0,
