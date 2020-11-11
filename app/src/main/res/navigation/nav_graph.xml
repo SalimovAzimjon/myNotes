@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="uz.azim.mynote.ui.note.NotesFragment"
+        android:label="NotesFragment">
+        <action
+            android:id="@+id/action_notesFragment_to_editNoteFragment"
+            app:destination="@id/editNoteFragment">
+            <argument
+                android:name="note"
+                android:defaultValue="@null"
+                app:argType="uz.azim.mynote.entity.Note"
+                app:nullable="true" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/editNoteFragment"
+        android:name="uz.azim.mynote.ui.edit.EditNoteFragment"
+        android:label="EditNoteFragment">
+        <argument
+            android:name="note"
+            android:defaultValue="@null"
+            app:argType="uz.azim.mynote.entity.Note"
+            app:nullable="true" />
+    </fragment>
+</navigation>

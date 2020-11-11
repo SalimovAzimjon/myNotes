@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyNote</string>
+    <string name="notes">Notes</string>
+    <string name="nothing">Nothing here yet</string>
+    <string name="new_note">New Note</string>
+    <string name="title_input">Title</string>
+    <string name="value_input">Add description</string>
+    <string name="add_image">add image</string>
 </resources>
